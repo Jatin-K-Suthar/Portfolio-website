@@ -3,13 +3,17 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
+    /* Set background color to white */
     font-family: Arial, sans-serif;
+    /* Specify the font family */
     color: #333;
+    /* Set text color */
 }
 
 /* Style the header section */
 header {
     background-color: #fff;
+    /* Set background color for the header */
     padding-top: 10px;
     display: flex;
     align-items: center;
@@ -21,6 +25,7 @@ header {
     align-items: center;
     width: 100%;
     margin: 0 auto;
+    /* Center the header content horizontally */
     justify-content: space-between;
     padding: 0 20px;
 }
@@ -31,38 +36,53 @@ header {
 
 .logo {
     height: 55px;
+    /* Set height for the logo container */
 }
 
+/* Style the logo image */
 .logo img {
     height: 55px;
+    /* Set height for the logo image */
     margin-right: 5px;
+    /* Add a small right margin */
 }
 
+/* Style the search bar */
 .search-bar {
     flex: 1;
     display: flex;
     align-items: center;
     border: 1px solid #ccc;
+    /* Add a border with a color */
     border-radius: 25px;
+    /* Round the corners of the search bar */
     overflow: hidden;
     margin-left: 34px;
+    /* Add left margin */
     width: 680px;
+    /* Set a fixed width for the search bar */
     padding: 0 13px;
+    /* Add padding inside the search bar */
     box-shadow: 0 2px 8px 1px rgba(64, 60, 67, .24);
-    ;
+    /* Apply a subtle box shadow */
 }
 
 .search-bar input {
     flex: 1;
     border: none;
+    /* Remove the input border */
     padding: 0 10px;
+    /* Add padding inside the input */
     font-size: 16px;
+    /* Set font size for the input */
 }
 
 .search-bar input:focus {
     outline: none;
+    /* Remove the focus outline */
 }
 
+/* Style the search icons */
 .search-icons {
     display: flex;
     align-items: center;
@@ -70,47 +90,67 @@ header {
 
 .clear-button {
     background: none;
+    /* Remove background */
     border: none;
+    /* Remove border */
     padding: 0;
     margin: 0;
     cursor: pointer;
+    /* Change cursor to pointer on hover */
     color: #666;
+    /* Set icon color */
     font-size: 27px;
+    /* Set icon size */
 }
 
 .divider {
     height: 35px;
     width: 1px;
     background-color: #ccc;
+    /* Set divider color */
     margin: 0 10px;
+    /* Add margin around the divider */
 }
 
+/* Style the search icons images */
 .search-icons img {
     width: 25px;
+    /* Set width for search icons */
     height: 24px;
+    /* Set height for search icons */
     margin: 0 10px;
+    /* Add margin around search icons */
 }
 
+/* Style the last search icon image */
 .search-icons img:last-of-type {
     margin-right: 12px;
+    /* Add right margin for the last search icon */
 }
 
+/* Style the user icons */
 .user-icons img {
     width: auto;
+    /* Auto width for user icons */
     height: 35px;
+    /* Set height for user icons */
     margin-left: 20px;
+    /* Add left margin to separate user icons */
 }
 
 /* Style the navigation section */
 .navigation {
     background-color: #fff;
+    /* Set background color for the navigation */
     text-align: center;
     border-bottom: 1px solid #ccc;
+    /* Add a bottom border with color */
     padding-top: 10px;
 }
 
 .navigation ul {
     padding: 0 200px;
+    /* Add padding to the list items */
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -123,65 +163,94 @@ header {
 
 .navigation li {
     font-size: 16px;
+    /* Set font size for navigation links */
     margin: 0 16px;
+    /* Add margin around navigation links */
 }
 
+/* Style the first navigation link */
 .navigation ul li:first-of-type a {
     color: #0066cc;
+    /* Set color for the first link */
     font-weight: 600;
+    /* Set font weight for the first link */
 }
 
 .navigation ul li.more-link {
     margin-left: 125px;
+    /* Add left margin for the "More" link */
 }
 
 .navigation a {
     text-decoration: none;
+    /* Remove underline from links */
     color: #545659;
+    /* Set color for navigation links */
 }
 
 /* Style the main content section */
 main {
     margin: 20px;
     max-width: 1200px;
+    /* Set maximum width for the main content */
     margin: 0 200px;
+    /* Add margin to center the main content */
 }
 
+/* Style the profile container */
 #profile-container {
     order: 2;
+    /* Change the order of display within the flex container */
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
     border: 1px solid #ccc;
+    /* Add border with color */
     border-radius: 8px;
+    /* Round the corners of the profile container */
     width: 370px;
+    /* Set a fixed width for the profile container */
     height: auto;
 }
 
+/* Style the profile image */
 #profile-container img {
     width: 60px;
+    /* Set width for the profile image */
     height: 60px;
+    /* Set height for the profile image */
     border-radius: 50%;
+    /* Round the profile image */
     margin-right: 20px;
+    /* Add right margin */
 }
 
+/* Style the larger profile image */
 #profile-image-container img {
     width: 130px;
+    /* Set width for the larger profile image */
     height: 150px;
+    /* Set height for the larger profile image */
     border: 2px solid #9aa0a6;
+    /* Add a border with color */
     border-radius: 4px;
+    /* Round the corners of the larger profile image */
     margin-right: -6px;
+    /* Adjust margin for alignment */
 }
 
 .profile-text {
     line-height: 1.5;
+    /* Set line height for profile text */
 }
 
+/* Style the main flex container */
 #main-flex-container {
     display: flex;
 }
 
+/* Style the profile header container */
 #profile-header-container {
     width: 100%;
     padding-top: 13px;
@@ -190,50 +259,67 @@ main {
     justify-content: space-evenly;
 }
 
+/* Style the profile introduction container */
 #profile-introduction-container {
     padding: 0 10px;
     font-size: 18px;
+    /* Set font size for profile introduction */
     line-height: 1.4;
-
+    /* Set line height for profile introduction */
 }
 
+/* Style the horizontal rule */
 #profile-container hr {
     width: 95%;
     border: 1px solid #ccc;
+    /* Add border with color */
     margin: 15px 0;
+    /* Add margin around the horizontal rule */
 }
 
+/* Style the profile data container */
 #profile-data-container {
     width: 100%;
     width: 340px;
+    /* Set a fixed width for the profile data container */
 }
 
 #profile-container p {
     margin: 10px 0;
+    /* Add margin to separate paragraphs */
     width: 100%;
 }
 
+/* Style the first paragraph in the profile container */
 #profile-container p:first-of-type {
     margin-top: 0;
+    /* Remove top margin for the first paragraph */
 }
 
+/* Style the last paragraph in the profile container */
 #profile-container p:last-of-type {
     margin-bottom: 0;
+    /* Remove bottom margin for the last paragraph */
 }
 
+/* Style the profile socials container */
 #profile-socials-container {
     box-sizing: border-box;
     width: 100%;
     padding: 0 10px;
+    /* Add padding to the socials container */
 }
 
+/* Style the profile handles container */
 #profile-handles-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 15px;
+    /* Add bottom margin to separate social icons */
 }
 
+/* Style the profile icons container */
 #profile-handles-container .profile-icons {
     display: flex;
     flex-direction: column;
@@ -241,54 +327,82 @@ main {
     justify-content: center;
 }
 
+/* Style the profile icons images */
 #profile-handles-container .profile-icons img {
     width: 50px;
+    /* Set width for social icons */
     height: 50px;
+    /* Set height for social icons */
     margin: 10px 0px;
+    /* Add margin around social icons */
     border-radius: 0;
+    /* Remove border radius */
 }
 
+/* Style the Gmail icon */
 .profile-icons a #gmail-icon {
     width: 65px;
+    /* Set width for the Gmail icon */
 }
 
 .profile-icons a {
     text-decoration: none;
+    /* Remove underline from social links */
 }
 
+/* Style the social icons on hover */
 .profile-icons a:hover img {
     scale: 1.1;
+    /* Scale up the image on hover */
     transition: scale 0.1s ease-in-out;
+    /* Add a smooth transition effect */
 }
 
 /* Style the search results section */
 #results-container {
     width: 700px;
+    /* Set a fixed width for the results container */
 }
 
+/* Style the individual search result */
 .search-result {
     width: 600px;
+    /* Set a fixed width for search results */
     background-color: #fff;
+    /* Set background color for search results */
     margin-top: 10px;
+    /* Add top margin to separate search results */
     padding: 20px;
+    /* Add padding inside search results */
     border-radius: 10px;
+    /* Round the corners of search results */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add a box shadow */
     transition: transform 0.2s ease-in-out;
+    /* Add a transform transition */
 }
 
+/* Scale up the search result on hover */
 .search-result:hover {
     transform: scale(1.02);
 }
 
+/* Style the links within search results */
 .search-result a {
     text-decoration: none;
+    /* Remove underline from links */
     color: #0066cc;
+    /* Set link color */
     font-weight: bold;
+    /* Set font weight for links */
 }
 
+/* Style the search speed text */
 .search-results .search-speed {
     color: #9aa0a6;
+    /* Set color for search speed text */
     font-size: 14px;
+    /* Set font size for search speed text */
 }
 
 /* Add more styling as needed */
@@ -302,17 +416,21 @@ main {
 
     .logo {
         margin-bottom: 10px;
+        /* Add bottom margin to the logo */
     }
 
     .search-bar {
         width: 100%;
+        /* Set full width for search bar on smaller screens */
     }
 
     .navigation ul {
         flex-wrap: wrap;
+        /* Allow navigation links to wrap */
     }
 
     .navigation li {
         margin: 5px 10px;
+        /* Add margin around navigation links */
     }
 }
