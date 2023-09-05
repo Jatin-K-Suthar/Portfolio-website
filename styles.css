@@ -1,0 +1,318 @@
+/* Reset some default styles and set a Google-like theme */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style the header section */
+header {
+    background-color: #fff;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#header-container-1 {
+    display: flex;
+}
+
+.logo {
+    height: 55px;
+}
+
+.logo img {
+    height: 55px;
+    margin-right: 5px;
+}
+
+.search-bar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-left: 34px;
+    width: 680px;
+    padding: 0 13px;
+    box-shadow: 0 2px 8px 1px rgba(64, 60, 67, .24);
+    ;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-icons {
+    display: flex;
+    align-items: center;
+}
+
+.clear-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: #666;
+    font-size: 27px;
+}
+
+.divider {
+    height: 35px;
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.search-icons img {
+    width: 25px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+.search-icons img:last-of-type {
+    margin-right: 12px;
+}
+
+.user-icons img {
+    width: auto;
+    height: 35px;
+    margin-left: 20px;
+}
+
+/* Style the navigation section */
+.navigation {
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.navigation ul {
+    padding: 0 200px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navigation ul #navigation-initial-container {
+    display: flex;
+}
+
+.navigation li {
+    font-size: 16px;
+    margin: 0 16px;
+}
+
+.navigation ul li:first-of-type a {
+    color: #0066cc;
+    font-weight: 600;
+}
+
+.navigation ul li.more-link {
+    margin-left: 125px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #545659;
+}
+
+/* Style the main content section */
+main {
+    margin: 20px;
+    max-width: 1200px;
+    margin: 0 200px;
+}
+
+#profile-container {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 370px;
+    height: auto;
+}
+
+#profile-container img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#profile-image-container img {
+    width: 130px;
+    height: 150px;
+    border: 2px solid #9aa0a6;
+    border-radius: 4px;
+    margin-right: -6px;
+}
+
+.profile-text {
+    line-height: 1.5;
+}
+
+#main-flex-container {
+    display: flex;
+}
+
+#profile-header-container {
+    width: 100%;
+    padding-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#profile-introduction-container {
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 1.4;
+
+}
+
+#profile-container hr {
+    width: 95%;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+#profile-data-container {
+    width: 100%;
+    width: 340px;
+}
+
+#profile-container p {
+    margin: 10px 0;
+    width: 100%;
+}
+
+#profile-container p:first-of-type {
+    margin-top: 0;
+}
+
+#profile-container p:last-of-type {
+    margin-bottom: 0;
+}
+
+#profile-socials-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10px;
+}
+
+#profile-handles-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+#profile-handles-container .profile-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-handles-container .profile-icons img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px;
+    border-radius: 0;
+}
+
+.profile-icons a #gmail-icon {
+    width: 65px;
+}
+
+.profile-icons a {
+    text-decoration: none;
+}
+
+.profile-icons a:hover img {
+    scale: 1.1;
+    transition: scale 0.1s ease-in-out;
+}
+
+/* Style the search results section */
+#results-container {
+    width: 700px;
+}
+
+.search-result {
+    width: 600px;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.search-result:hover {
+    transform: scale(1.02);
+}
+
+.search-result a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.search-results .search-speed {
+    color: #9aa0a6;
+    font-size: 14px;
+}
+
+/* Add more styling as needed */
+@media (max-width: 768px) {
+
+    /* Adjust styles for smaller screens */
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .navigation ul {
+        flex-wrap: wrap;
+    }
+
+    .navigation li {
+        margin: 5px 10px;
+    }
+}
