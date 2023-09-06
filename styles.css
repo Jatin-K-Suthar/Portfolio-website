@@ -262,9 +262,10 @@ main {
 /* Style the profile introduction container */
 #profile-introduction-container {
     padding: 0 10px;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     /* Set font size for profile introduction */
-    line-height: 1.4;
+    line-height: 1.2;
     /* Set line height for profile introduction */
 }
 
@@ -394,7 +395,13 @@ main {
     color: #0066cc;
     /* Set link color */
     font-weight: bold;
+    font-size: 18px;
     /* Set font weight for links */
+}
+
+.search-result p {
+    font-size: 16px;
+    line-height: 22px;
 }
 
 /* Style the search speed text */
